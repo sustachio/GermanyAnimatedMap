@@ -1,0 +1,45 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+
+#led_layout {
+  width: 2000px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: -1;
+}
+
+.colored_map {
+  width: 2050px;
+  position: absolute;
+  left: 0px;
+  top: 200px;
+  z-index: -2;
+  
+}
+
+#country_buttons {
+  color: blue;
+}
+
+#data-display {
+  position: absolute;
+  left: 10px;
+  top: 1800px;
+  z-index: 2;
+  
+}
+
+@keyframes blink-bg {
+  0%   { color: red; }
+  50%  { color: black }
+  100% { color: red; }
+}
+
+.blink {
+  animation: blink-bg 1s infinite;
+}
